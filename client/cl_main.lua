@@ -17,3 +17,8 @@ if Config.EnableCommand then
     end)
 end 
 
+if Config.ShowOnStart then 
+    CreateThread(function()
+        Main:DrawZone()
+    end)
+end
