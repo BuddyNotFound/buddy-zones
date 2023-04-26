@@ -8,7 +8,7 @@ Config.Command = "zones" -- Toggle zones command (/[command] show/hide)
 Config.CommandArgShow = "show" -- Argument needed to show the zones (/[command] [arg])
 Config.CommandArgHide = "hide" -- Argument needed to hide the zones (/[command] [arg])
 Config.ShowOnStart = true
-
+Config.ShowBlips = false
 
 -- Lang
 Config.AlreadyOnError = "Zones are already displayed!"
