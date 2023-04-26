@@ -9,7 +9,11 @@ function Main:DrawZone(_bdata)
         SetBlipColour (__[____], _.Colour) 
         SetBlipAlpha (__[____], _.Alpha) 
         SetBlipRotation (__[____], _.Rotation) 
-        SetBlipAsShortRange(__[____], false)
+        if Config.ShowBlips then 
+            SetBlipAsShortRange(__[____], false)
+        else
+            SetBlipAsShortRange(__[____], true)
+        end
         if Config.Debug then 
             print(_.Pos.x, _.Pos.y, _.Pos.z, _.Width, _.Height,_.Display,_.Colour,_.Alpha,_.Rotation)
         end
