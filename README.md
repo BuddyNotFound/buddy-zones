@@ -2,6 +2,9 @@
 
 <a href='https://ko-fi.com/G2G0N78P7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
+![8053c801f7b9eea8e17943e16c4671d81aa9f7f7_2_690x302](https://github.com/BuddyNotFound/buddy-zones/assets/74051918/51687a04-406c-4d42-82c4-95a0636916d8)
+
+
 **A Standalone resources for drawing zones on the map easily:**
 This resources creates blips using AddBlipForArea and adds commands for showing and hiding the zones from the map. you can add as many zones as you want from the config file:
 
