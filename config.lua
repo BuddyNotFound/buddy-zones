@@ -11,8 +11,8 @@ Config.ShowOnStart = true -- Showing on start
 Config.ShowBlips = false -- Showing blips
 
 -- Lang
-Config.AlreadyOnError = "Zones are already displayed!"
-Config.AlreadyOffError = "Zones are already hidden!"
+Config.AlreadyOnError = "Zones are already displayed!" -- AlertOnLang
+Config.AlreadyOffError = "Zones are already hidden!" -- AlertOffLang
 
 -- Zones
 Config.Zones = {
