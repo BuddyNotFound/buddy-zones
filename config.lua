@@ -3,7 +3,7 @@ Config = {}
 -- Main Config
 Config.Debug = true 
 Config.Notify = "QB" -- QB / Standalone / Custom
-Config.EnableCommand = true
+Config.EnableCommand = true -- Enables comamnds
 Config.Command = "zones" -- Toggle zones command (/[command] show/hide)
 Config.CommandArgShow = "show" -- Argument needed to show the zones (/[command] [arg])
 Config.CommandArgHide = "hide" -- Argument needed to hide the zones (/[command] [arg])
